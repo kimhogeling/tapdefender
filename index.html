@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tap Defender</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="wrapper">
+        <canvas id="game-canvas" class="centered" width="300" height="365"></canvas>
+    </div>
+    <script src="game.js"></script>
+    <style>
+        html, body { margin: 0; padding: 0; background: #000 }
+        .wrapper {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 0;
+            grid-auto-rows: 200px;
+            grid-template-areas: ". a ." ". a .";
+        }
+        .centered {
+            grid-area: a;
+            align-self: center;
+            justify-self: center;
+        }
+        canvas {
+            background: white;
+            border-radius: 5px;
+        }
+    </style>
+</body>
+</html>
