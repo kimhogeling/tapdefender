@@ -1,6 +1,9 @@
 # Tap Defender
 Little js game for fun inspired by clicker heroes.
 
+![gif animation of the game](https://raw.githubusercontent.com/kimhogeling/tapdefender/master/tapdefender.gif)
+
+
 # Getting started
 Just open index.html in your browser.
 
