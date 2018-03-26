@@ -33,7 +33,7 @@ let hintShownHeroBuy = false
 let hintShownHeroUpgrade = false
 
 const resetEnemy = () => {
-    hp = Math.floor((Math.random()) * enemyCount * enemyCount * 1.3)
+    hp = Math.ceil((Math.random()) * enemyCount * enemyCount * 1.3)
     enemy = {
         hp,
         resthp: hp,
